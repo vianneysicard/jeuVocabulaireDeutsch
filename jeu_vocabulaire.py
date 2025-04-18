@@ -24,7 +24,7 @@ div.stButton > button {
     align-items: center;
     justify-content: center;
     border-radius: 4px;
-    margin-bottom: 22px;
+    margin-bottom: 24px;
 }
 /* Marge uniforme entre boutons */
 div.stButton {
