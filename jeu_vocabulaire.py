@@ -146,7 +146,8 @@ def afficher_jeu(df):
                 st.markdown("<div style='height:50px; margin-bottom:8px;'></div>", unsafe_allow_html=True)
 
 # --- Chargement du fichier Excel et configuration ---
-fichier_excel = "vocabulaire_allemand_traduit_depuis_allemand.xlsx"
+# fichier_excel = "vocabulaire_allemand_traduit_depuis_allemand.xlsx"
+fichier_excel = "vocabulaire.xlsx"
 try:
     df, colonnes = charger_vocabulaire(fichier_excel)
 except Exception as e:
